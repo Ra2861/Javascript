@@ -1,0 +1,51 @@
+.form-inline{
+    justify-content:flex-start;
+    float: right;
+  }
+  #barra {
+    float:inline-start;
+    padding: 20px ;
+    justify-content: center;
+  }
+.button {
+    border: solid;
+    border-radius: 12px;
+    color:black;
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  #button1 {
+  background-color: #4CAF50;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  } /* Green */ 
+  
+  #button2 {
+  background-color: #008CBA;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  }
+  /* Blue */
+  #container {
+    display: flex;
+   flex-direction: row;
+  }
+
+  #colunaEsquerda {
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content:center;
+    border-style: solid;
+    border-color: #444;
+    border-width: 1px;
+    }
